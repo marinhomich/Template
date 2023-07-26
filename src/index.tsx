@@ -1,11 +1,16 @@
+import "./i18n";
+
 import React from "react";
-import ReactDOM from "react-dom/client";
+import { createRoot } from "react-dom/client";
 import { HelmetProvider } from "react-helmet-async";
 import { RouterProvider } from "react-router-dom";
 
 import { routes } from "./routes";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+const container = document.getElementById("root") as HTMLElement;
+const root = createRoot(container);
+
+root.render(
   <React.StrictMode>
     <HelmetProvider>
       <RouterProvider router={routes} />
