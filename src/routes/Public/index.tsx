@@ -2,10 +2,10 @@ import { Card, Text, Title } from "@tremor/react";
 
 import Navbar from "@/components/Navbar";
 import UsersTable from "@/components/Table";
-import { useTranslate } from "@/hooks/useTranslate";
+// import { useTranslate } from "@/hooks/useTranslate";
 
 export default function LoginPage() {
-  const translate = useTranslate();
+  // const translate = useTranslate();
 
   return (
     <>
