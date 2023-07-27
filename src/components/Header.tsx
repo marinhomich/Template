@@ -6,8 +6,12 @@ export default function Header() {
   }
   return (
     <>
-      <button onClick={() => mudarIdioma("en")}>en</button>
-      <button onClick={() => mudarIdioma("pt-BR")}>pt-BR</button>
+      <button className="mt-4 mt-2" onClick={() => mudarIdioma("en")}>
+        en
+      </button>
+      <button className="mt-1" onClick={() => mudarIdioma("pt-BR")}>
+        pt-BR
+      </button>
     </>
   );
 }
