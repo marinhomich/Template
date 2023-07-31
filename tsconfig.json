@@ -19,7 +19,7 @@
       "@/*": ["./src/*", "./dist/*", ""],
       "@routes/*": ["src/routes/*"],
       "components/*": ["src/assets/components/*"],
-      "types/*": ["src/@types/*"],
+      "types/*": ["src/types/*"],
       "public/*": ["public/*"]
     },
 
